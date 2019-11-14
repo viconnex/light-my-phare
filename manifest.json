@@ -1,0 +1,14 @@
+{
+  "name": "Light my Phare",
+  "version": "1.0",
+  "description": "Phare ouest",
+  "background": {
+    "scripts": ["lightMyPhare.js"],
+    "persistent": false
+  },
+  "page_action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": ["tabs", "activeTab", "http://*/", "https://*/"],
+  "manifest_version": 2
+}
